@@ -1,0 +1,60 @@
+{
+  "name": "tallya",
+  "version": "1.0.0",
+  "description": "Turn raw counts into UX-friendly bucketed labels like '100+', '1K+', or '10K+'.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faizanu94/tallya"
+  },
+  "author": {
+    "name": "Muhammad Faizan Uddin",
+    "email": "faizan.uddin94@gmail.com",
+    "url": "https://github.com/faizanu94"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "tally",
+    "tallya",
+    "ux",
+    "raw-count",
+    "ecommerce",
+    "label",
+    "bucket",
+    "count",
+    "social-proof",
+    "analytics",
+    "frontend",
+    "typescript",
+    "dashboard",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/faizanu94/tallya/issues"
+  },
+  "homepage": "https://github.com/faizanu94/tallya#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  }
+}
