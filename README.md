@@ -1,5 +1,7 @@
 # tallya
 
+Tallya (from “tally” meaning to count, plus “-a” for action)
+
 > Turn raw counts into concise, UX‑friendly bucketed labels like `300+`, `7K+` or `12M+`.
 
 ---
